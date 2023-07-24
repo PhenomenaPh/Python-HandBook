@@ -1,5 +1,7 @@
 *.venv
-.idea
+*.idea
 *.ipynb
 *.ipynb_checkpoints
 *.vscode
+*.txt
+*.json

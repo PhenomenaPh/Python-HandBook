@@ -2,7 +2,7 @@ from itertools import product
 
 # Сначала мы парсим входные данные, заменяя каждую открывающуюся и закрывающуюся скобку на ту же скобку с пробелом, 
 # чтобы упростить разделение.
-data = input().replace(' (', ' ( ').replace(') ', ' ) ').split()
+data = input().replace('(', ' ( ').replace(')', ' ) ').split()
 
 # Извлекаем все переменные из входных данных и сортируем их в алфавитном порядке.
 variables = sorted(set(value for value in data if value.isupper()))

@@ -7,4 +7,3 @@ keywoard = lines.pop()
 for i in lines:
     if keywoard.lower() in i.lower():
         print(i)
-    
